@@ -45,10 +45,10 @@ Feb. 2021 – Mar. 2021
 
 Software Development Team work
 
-```
+
 • Constructed a 5 component Finite State Machine in order to handle the various states of the lexer
 • Reinforced several compiler concepts such as Tokens & Lexemes, Buffering, Finite-State Automata, and Regular Expressions.
-```
+
 
 ### **Multi-Threading Application** | Operating Systems Concepts 
 
@@ -56,11 +56,11 @@ Feb. 2021 – Mar. 2021
 
 Software Development Team work
 
-```
+
 • Conducted evaluation analysis on 4 of the most common process & disk scheduling algorithms; First Come-First Serve (FCFS), Shortest Job First (SJF, non-preemptive), Round Robin (RR, quantum = 5 milliseconds), and Priority (with 3 priority levels)
 • Related the threading, process synchronization, and deadlock concepts covered in class to a real-world problem.
 • Discovered the challenges of debugging race conditions and deadlocks, and learned how to prevent them
-```
+
 
 ### **Triangle Area** --- Program | x86 Assembly Programming 
 
@@ -68,10 +68,10 @@ Oct. 2020 – Nov. 2020
 
 Individual Software Development
 
-```
+
 • Implemented the feature which accepts input three quadword float numbers representing the sides of a triangle. After confirming that the inputs are in fact valid floats then compute the area of the triangle using Heron’s formula.
 • Equipped the program with error handling, and is avoids crashing when a user inputs a length value outside acceptable parameters
-```
+
 
 ### **Sorting Race** --- Web Application | Algorithm Engineering 
 
@@ -79,13 +79,13 @@ Sep. 2019 – Oct. 2019
 
 Software Development Team work
 
-```
+
 • Revamped the traditional Sorting Algorithm Race into a program that launches in web browser of choice
 • Illustrated the various algorithm steps and the generational (i.e. one row per pass) progress of several different sorting algorithms, side by
 side in their own columns; Insertion Sort, Merge Sort, Pore's Gold Sort, Quick Sort
 • Coded all of the visuals, logic, and algorithm implementations in P5 Javascript, HTML, and CSS
 • Documented several sections of concept integration, development process, setup & installation, external requirements, features, and contents
-```
+
 
 ### **Grocery Database** --- Program | Data Structures 
 
@@ -93,10 +93,10 @@ Jan. 2020 – May 2020
 
 Individual Software Development
 
-```
+
 • Implemented 10 data structures including the Array, Vector, SL List, DL List, Stack, Queue, Map, Binary Search Tree, AVL Tree Unordered Container (Heap), using STL and non-STL design
 • Performed 2 comparison analysis tests between the containers, highlighting their respective Big-O Complexity on various container operations and search algorithms
-```
+
 
 ### **Pi Kappa Alpha Event Planning Committee** | Fullerton, CA 
 
@@ -104,9 +104,9 @@ Aug. 2018 – Dec. 2018
 
 Special Interest Group Leader
 
-```
+
 • Hosted over 20 workshops on personal, social, and career development, featuring guest speakers such as alumni, advisors, and current members of the organization
-```
+
 
 ## Affiliations & Organizations
 • Society of Hispanic Professional Engineers (SHPE) ---------------- April 2021 - Present
