@@ -3,14 +3,14 @@
 # Contact Information
 Email: blucero.cu@gmail.com OR 13rianlucero@csu.fullerton.edu
 
-Github: [Link](github.com/13rianlucero)
+Github: [https://github.com/13rianlucero](https://github.com/https://13rianlucero)
 
-Linkedin: [Link](linkedin.com/in/~brian-lucero)
+Linkedin: [https://linkedin.com/in/~brian-lucero](https://linkedin.com/in/~brian-lucero)
 
 # Education
-California State University, Fullerton | Fullerton, CA
+### California State University, Fullerton | Fullerton, CA
 
-Bachelor of Science, Computer Science  | May 2022
+### Bachelor of Science, Computer Science  | May 2022
 
 
 # Relevant Coursework
