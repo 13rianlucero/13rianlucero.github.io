@@ -42,7 +42,7 @@ Feb. 2021 – Mar. 2021
 
 Software Development Team work
 
-```markdown
+```
 • Constructed a 5 component Finite State Machine in order to handle the various states of the lexer
 • Reinforced several compiler concepts such as Tokens & Lexemes, Buffering, Finite-State Automata, and Regular Expressions.
 ```
@@ -53,7 +53,7 @@ Feb. 2021 – Mar. 2021
 
 Software Development Team work
 
-```markdown
+```
 • Conducted evaluation analysis on 4 of the most common process & disk scheduling algorithms; First Come-First Serve (FCFS), Shortest Job First (SJF, non-preemptive), Round Robin (RR, quantum = 5 milliseconds), and Priority (with 3 priority levels)
 • Related the threading, process synchronization, and deadlock concepts covered in class to a real-world problem.
 • Discovered the challenges of debugging race conditions and deadlocks, and learned how to prevent them
@@ -65,7 +65,7 @@ Oct. 2020 – Nov. 2020
 
 Individual Software Development
 
-```markdown
+```
 • Implemented the feature which accepts input three quadword float numbers representing the sides of a triangle. After confirming that the inputs are in fact valid floats then compute the area of the triangle using Heron’s formula.
 • Equipped the program with error handling, and is avoids crashing when a user inputs a length value outside acceptable parameters
 ```
@@ -76,7 +76,7 @@ Sep. 2019 – Oct. 2019
 
 Software Development Team work
 
-```markdown
+```
 • Revamped the traditional Sorting Algorithm Race into a program that launches in web browser of choice
 • Illustrated the various algorithm steps and the generational (i.e. one row per pass) progress of several different sorting algorithms, side by
 side in their own columns; Insertion Sort, Merge Sort, Pore's Gold Sort, Quick Sort
@@ -90,7 +90,7 @@ Jan. 2020 – May 2020
 
 Individual Software Development
 
-```markdown
+```
 • Implemented 10 data structures including the Array, Vector, SL List, DL List, Stack, Queue, Map, Binary Search Tree, AVL Tree Unordered Container (Heap), using STL and non-STL design
 • Performed 2 comparison analysis tests between the containers, highlighting their respective Big-O Complexity on various container operations and search algorithms
 ```
@@ -101,7 +101,7 @@ Aug. 2018 – Dec. 2018
 
 Special Interest Group Leader
 
-```markdown
+```
 • Hosted over 20 workshops on personal, social, and career development, featuring guest speakers such as alumni, advisors, and current members of the organization
 ```
 
@@ -115,7 +115,7 @@ Special Interest Group Leader
 • Pi Kappa Alpha Fraternity ---------------------------------------- Aug. 2017 - Present
 
 ## Skills & Interests
-```markdown
+```
 • Proficient in C++ Programming, iOS Application Development, Object-Oriented Programming, Software Engineering concepts & models
 
 • Languages: English (1st Lang.), C++, Python, Swift, R, SQL, JavaScript, HTML, CSS, x86 Assembly (Intel Syntax), C, Shell script
