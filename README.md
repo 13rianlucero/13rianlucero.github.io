@@ -3,7 +3,7 @@
 ## Contact Information
 Email: blucero.cu@gmail.com OR 13rianlucero@csu.fullerton.edu
 
-Github: [https://github.com/13rianlucero](https://github.com/https://13rianlucero)
+Github: [https://github.com/13rianlucero](https://github.com/13rianlucero)
 
 Linkedin: [https://linkedin.com/in/~brian-lucero](https://linkedin.com/in/~brian-lucero)
 
