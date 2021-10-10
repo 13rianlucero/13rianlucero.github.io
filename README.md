@@ -10,6 +10,13 @@ Linkedin: [https://linkedin.com/in/~brian-lucero](https://linkedin.com/in/~brian
 Contact info QR-Code:
 ![brianlucero-contactinfo-qrcode](https://user-images.githubusercontent.com/47013770/134774885-c9dcbcf9-2b98-455a-8ccf-204c4da01e9f.jpg)
 
+
+# RESUME
+
+![Resume - PDF Download](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/BrianLuceroResume.pdf)
+![Brian Lucero's Resume](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/BrianLuceroResume.jpeg)
+
+
 # Resume information:
 
 ## Education
@@ -129,9 +136,3 @@ Special Interest Group Leader
 Developer Tools, Simulator, Atom, MySQL, PyCharm, RStudio, Oracle VM Virtualbox Manager, Unreal Engine, Matlab
 
 • Personal Interests: traveling/outdoors, sports, computer gaming, skateboarding, music education/production, saxophone performance
-
-# RESUME
-
-![Resume - PDF Download](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/BrianLuceroResume.pdf)
-
-![Brian Lucero's Resume](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/BrianLuceroResume.jpeg)
