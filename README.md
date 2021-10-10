@@ -132,4 +132,4 @@ Developer Tools, Simulator, Atom, MySQL, PyCharm, RStudio, Oracle VM Virtualbox 
 
 ![RESUME](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/BrianLuceroResume.pdf)
 
-![Brian Lucero's Resume](https://user-images.githubusercontent.com/47013770/136712078-2911aef0-e2ae-4c5a-b5bb-01635a706bd8.jpeg)
+![Brian Lucero's Resume](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/BrianLuceroResume.jpeg)
