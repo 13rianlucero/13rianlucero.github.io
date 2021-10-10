@@ -3,12 +3,14 @@
 ## Contact Information
 Email: blucero.cu@gmail.com OR 13rianlucero@csu.fullerton.edu
 
-Github: [https://github.com/13rianlucero](https://github.com/https://13rianlucero)
+Github: [https://github.com/13rianlucero](https://github.com/13rianlucero)
 
 Linkedin: [https://linkedin.com/in/~brian-lucero](https://linkedin.com/in/~brian-lucero)
 
-QR-Code:
+Contact info QR-Code:
 ![brianlucero-contactinfo-qrcode](https://user-images.githubusercontent.com/47013770/134774885-c9dcbcf9-2b98-455a-8ccf-204c4da01e9f.jpg)
+
+# Resume information:
 
 ## Education
 **California State University, Fullerton** | Fullerton, CA
