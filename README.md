@@ -1,6 +1,7 @@
 # 13rianlucero.github.io
-This is my personal Web Portfolio
-Hosted through Github Pages: https://13rianlucero.github.io/
+
+- This is my personal Web Portfolio
+- Hosted through Github Pages: https://13rianlucero.github.io/
 
 # Hi, my name is Brian Lucero, and I am a Software Engineer from South El Monte, California.
 
