@@ -20,7 +20,7 @@ Contact info QR-Code:
 
 ![Resume - PDF Download](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/BrianLuceroResume.pdf)
 
-![Brian Lucero's Resume](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/BrianLuceroResume.jpeg)
+![Brian Lucero's Resume](https://user-images.githubusercontent.com/47013770/160898830-fd652d6f-4e24-4314-ae3c-a01416bb86c6.jpg)
 
 
 # Resume information:
