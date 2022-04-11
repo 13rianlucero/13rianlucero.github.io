@@ -12,7 +12,7 @@
 - This is my personal Web Portfolio
 - Hosted through Github Pages: [![Brian Lucero](https://img.shields.io/badge/Brian%20Lucero-HOME-blue)](https://13rianlucero.github.io/)
 
-# Hi, my name is Brian Lucero, and I am a Software Engineer from South El Monte, California.
+## Hi, my name is Brian Lucero, and I am a Software Engineer from South El Monte, California.
 
 ## Contact Information
 Email: blucero.cu@gmail.com OR 13rianlucero@csu.fullerton.edu
