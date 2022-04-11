@@ -1,3 +1,17 @@
+[![Brian Lucero](https://img.shields.io/badge/Brian%20Lucero-HOME-blue)](https://13rianlucero.github.io/)
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+[![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)](https://13rianlucero.github.io/)
+[![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)](https://13rianlucero.github.io/)
+
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://13rianlucero.github.io/)
+[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://13rianlucero.github.io/)
+[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://13rianlucero.github.io/)
+
+
+
+
 # 13rianlucero.github.io
 
 - This is my personal Web Portfolio
