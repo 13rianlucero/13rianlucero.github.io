@@ -4,7 +4,8 @@
 [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/index.html)
 [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://github.com/13rianlucero/13rianlucero.github.io/tree/main/assets/css)
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) 
+- my license section: ![Brian's License: AGPL v3](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/README.md#license)
 
 # 13rianlucero.github.io
 
@@ -168,4 +169,4 @@ Developer Tools, Simulator, Atom, MySQL, PyCharm, RStudio, Oracle VM Virtualbox 
 
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-    ```
+    
