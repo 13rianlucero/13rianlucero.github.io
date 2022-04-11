@@ -5,7 +5,7 @@
 [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://github.com/13rianlucero/13rianlucero.github.io/tree/main/assets/css)
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) 
-- my license section: ![Brian's License: AGPL v3](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/README.md#license)
+- my license section: [Brian's License: AGPL v3](https://github.com/13rianlucero/13rianlucero.github.io/blob/main/README.md#license)
 
 # 13rianlucero.github.io
 
