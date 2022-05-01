@@ -12,6 +12,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="shortcut icon" type="image/jpg" href="images/favicon_io/favicon.ico"/>
+		<meta property="og:description" content="A brief page description" />
+		<script>
+			function resizeIframe(obj) {
+			  obj.style.height = (obj.contentWindow.document.documentElement.scrollHeight-200) + 'px';
+			}
+		  </script>
 	</head>
 	<body class="is-preload">
 
@@ -74,7 +80,7 @@
 							<section id="two" class="spotlights">
 								<section>
 									<div class="col-6 col-12-small">
-										<span class="image fit"><img src="images/CovidDashboard-frontpage.png" alt="" data-position="top center" /></span>
+										<span class="image main"><img src="images/CovidDashboard-frontpage.png" alt="" data-position="top center" /></span>
 									</div>
 									<div class="content">
 										<div class="inner">
@@ -99,7 +105,7 @@
 															<!-- <span class="image "><a href="https://github.com/13rianlucero/Covid_Dashboard/blob/dev/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="" data-position="top center"/></a></span> -->
 														</div>	
 													</div>
-													<span class="image "><a href="https://github.com/13rianlucero/Covid_Dashboard/blob/dev/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="" data-position="top center"/></a></span>
+													<span class="image"><a href="https://github.com/13rianlucero/Covid_Dashboard/blob/dev/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="" data-position="top center"/></a></span>
 												</div>
 											</header>
 											<div class="row">
@@ -117,15 +123,17 @@
 													</ul>
 												</div>
 												<div class="col-6 col-12-small">
-													<span class="image"><img src="https://user-images.githubusercontent.com/47013770/162826938-db9196cd-0e8a-48ea-9ac3-8456e6eb0580.gif" alt="" data-position="top center" /></span>
+													<span class="image main"><img src="https://user-images.githubusercontent.com/47013770/162826938-db9196cd-0e8a-48ea-9ac3-8456e6eb0580.gif" alt="" data-position="top center" /></span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</section>
+
+								<!-- 	QUIZ CENTRAL     -->
 								<section>
-									<div class="col-6 col-12-small">
-										<span class="image fit"><a href="https://personality-quiz-projec.web.app/index.html" class="image fit"><img src="https://user-images.githubusercontent.com/47013770/140545994-2744ea99-ce58-48ed-8b22-ba9783bc8957.gif" alt="" data-position="top center" /></a></span>
+									<div class="col-8 col-12-small">
+										<span class="image main" ><a href="https://personality-quiz-projec.web.app/index.html" class="image main"><img src="https://user-images.githubusercontent.com/47013770/140545994-2744ea99-ce58-48ed-8b22-ba9783bc8957.gif" height=400px width=500px alt="" style="vertical-align:top;margin:3px"></a></span>
 									</div>
 									<div class="content"> 
 										<div class="inner">
@@ -161,12 +169,17 @@
 										</div>
 									</div>
 								</section>
-								<section>
-									<a href="https://youtu.be/DBmEFR_qsgE" class="image">
-										<img src="images/FAB-CASINO.jpeg" alt="" data-position="top center" />
-										<!-- <p></p> -->
-										<!-- <img src="https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif" alt="" data-position="top center" /> -->
-									</a>
+
+								<section id="FAB-Casino">
+									<div class="image">
+										<!-- <span class="image"> -->
+											<a href="https://youtu.be/DBmEFR_qsgE" class="image">
+												<img src="images/FAB-CASINO.jpeg" alt="Simulator" data-position="top center">
+												<!-- <p></p> -->
+												<!-- <img src="https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif" alt="" data-position="top center" /> -->
+											</a>
+										<!-- </span> -->
+									</div>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
@@ -200,8 +213,9 @@
 													</ul>
 												</div>
 												<div class="col-6 col-12-small">
-													<span class="image"><a href="https://youtu.be/DBmEFR_qsgE"><img src="https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif" alt="" data-position="top center" /></a></span>
+													<span class="image fit"><a href="https://youtu.be/DBmEFR_qsgE"><img src="https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif" alt=""  /></a></span>
 													<p> <br /> <br /> <br /></p>
+													<!-- <p> <br /> <br /> <br /></p> -->
 												</div>
 											</div>
 										</div>
@@ -237,7 +251,7 @@
 						<!-- PERSONAL PROJECTS (SECTION TWO)--> 
 							<section id="two" class="spotlights">
 								<section>
-									<a href="https://github.com/13rianlucero/13rianlucero.github.io" class="image">
+									<a href="https://github.com/13rianlucero/13rianlucero.github.io" class="image fit">
 										<img src="images/website.png" alt="" data-position="center center" />
 										<!-- <p></p>
 										<img src="images/me in a suit.jpg" alt="" data-position="center center" /> -->
@@ -246,7 +260,23 @@
 										<div class="inner">
 											<header class="major">
 												<h3>Personal Web Portfolio</h3>
-												<div class="box alt">
+													<div class="box col">
+														<div class="row">
+															<span>
+																<a href="https://github.com/13rianlucero/13rianlucero.github.io" class="image"><img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" alt="" data-position="center center"/></a>
+																<a href="https://github.com/13rianlucero" class="image"><img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="" data-position="center center"/></a>
+																<a href="https://github.com/13rianlucero" class="image"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="" data-position="center center"/></a>
+															</span>
+														</div>
+														<div class="row">
+															<span>
+																<a href="http://www.linkedin.com/in/~brian-lucero" class="image"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="" data-position="center center"/></a>
+																<a href="mailto:blucero.cu@gmail.com" class="image"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white/" alt="" data-position="center center"/></a>
+																<a href="https://github.com/13rianlucero/13rianlucero.github.io/blob/main/README.md#license" class="image"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg" alt="" data-position="center center"/></a>
+															</span>
+														</div>
+													</div>
+												<!-- <div class="box alt">
 													<div class="row gtr-0 gtr-uniform">
 														<div class="col-4"><span class="image fit">
 															<a href="https://github.com/13rianlucero/13rianlucero.github.io" class="image">
@@ -257,24 +287,19 @@
 															<img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="" data-position="center center"/>
 															</a></span></div>
 														<div class="col-4"><span class="image fit">
-															<a href="https://github.com/13rianlucero" class="image">
-															<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="" data-position="center center"/>
-															</a></span></div>
-														<!-- Break -->
-														<div class="col-4"><span class="image fit">
-															<a href="http://www.linkedin.com/in/~brian-lucero" class="image">
-															<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="" data-position="center center"/>
+															<a href="https://github.com/13rianlucero" class="image"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="" data-position="center center"/>
 															</a></span></div>
 														<div class="col-4"><span class="image fit">
-															<a href="mailto:blucero.cu@gmail.com" class="image">
-															<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white/" alt="" data-position="center center"/>
+															<a href="http://www.linkedin.com/in/~brian-lucero" class="image"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="" data-position="center center"/>
 															</a></span></div>
 														<div class="col-4"><span class="image fit">
-															<a href="https://github.com/13rianlucero/13rianlucero.github.io/blob/main/README.md#license" class="image">
-															<img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg" alt="" data-position="center center"/>
+															<a href="mailto:blucero.cu@gmail.com" class="image"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white/" alt="" data-position="center center"/>															
+															</a></span></div>
+														<div class="col-4"><span class="image fit">
+															<a href="https://github.com/13rianlucero/13rianlucero.github.io/blob/main/README.md#license" class="image"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg" alt="" data-position="center center"/>
 															</a></span></div>
 													</div>
-												</div>
+												</div> -->
 											</header>
 											<ul>
 												<li>A responsive site, sourced from HTML5 UP.</li>
@@ -298,18 +323,21 @@
 										<div class="inner">
 											<header class="major">
 												<h3>UDP Pinger</h3>
-												<ul>
-													<a href="https://github.com/13rianlucero/UDP-Pinger" class="image">
-														<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="" data-position="center center"/>
-													</a>
-													<a href="https://github.com/13rianlucero/UDP-Pinger" class="image">
-														<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="https://github.com/13rianlucero/UDP-Pinger" class="image">
-														<img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" alt="" data-position="center center"/>
-													</a>
-
-												</ul>
+												<div class="row.aln-left">
+													<div class="col-1-xsmall">
+														<span class="image">
+															<a href="https://github.com/13rianlucero/UDP-Pinger" class="image">
+																<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="" data-position="center center"/>
+															</a>
+															<a href="https://github.com/13rianlucero/UDP-Pinger" class="image">
+																<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="" data-position="center center"/>
+															</a>
+															<a href="https://github.com/13rianlucero/UDP-Pinger" class="image">
+																<img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" alt="" data-position="center center"/>
+															</a>
+														</span>
+													</div>
+												</div>
 											</header>
 											<ul>
 												<li>Programmed a tool designed to send a UDP packet to a target on an unallocated port and waits for a specific error answer.</li>
@@ -327,43 +355,34 @@
 									<!-- <a href="#" class="image">
 										<img src="images/FAB-CASINO.jpeg" alt="" data-position="top center" />
 									</a> -->
-									<iframe src="https://drive.google.com/file/d/11SQnD1wSnJs6wKg5MqERt-7N1_nn0c5y/preview" width="550" height="480" allow="autoplay"></iframe>
-									<p></p>
+									<span class="image main">
+										<iframe src="https://drive.google.com/file/d/11SQnD1wSnJs6wKg5MqERt-7N1_nn0c5y/preview" width=500 height=500 allow="autoplay" ></iframe>
+									</span>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Heart</h3>
 												<div class="box alt">
-													<div class="row gtr-0 gtr-uniform">
-														<div class="col-4"><span class="image fit">
-															<a href="https://github.com/13rianlucero/heart" class="image">
-																<img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="" data-position="center center"/>
-															</a></span></div>
-														<div class="col-4"><span class="image fit">
-															<a href="https://github.com/13rianlucero/heart" class="image">
-																<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="" data-position="center center"/>
-															</a></span></div>
-														<div class="col-4"><span class="image fit">
-															<a href="https://github.com/13rianlucero/heart" class="image">
-																<img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" alt="" data-position="center center"/>
-															</a></span></div>
-														<!-- Break -->
-														<div class="col-4"><span class="image fit">
-															<a href="https://github.com/13rianlucero/heart" class="image">
-																<img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white" alt="" data-position="center center"/>
-															</a></span></div>
-														<div class="col-4"><span class="image fit">
-															<a href="https://github.com/13rianlucero/heart" class="image">
-																<img src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white" alt="" data-position="center center"/>
-															</a></span></div>
-														<div class="col-4"><span class="image fit">
-															<a href="https://github.com/13rianlucero/heart" class="image">
-																<img src="https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white" alt="" data-position="center center"/>
-															</a></span></div>
+													<div class="row.aln-left">
+														<div class="col-4 col-12-small">
+															<span class="image">
+																<a href="https://github.com/13rianlucero/heart" class="image"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="" data-position="top center"/></a>
+																<a href="https://github.com/13rianlucero/heart" class="image"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="" data-position="top center"/></a>
+																<a href="https://github.com/13rianlucero/heart" class="image"><img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" alt="" data-position="top center"/></a>
+															</span>
+														</div>
+														<div class="col-4 col-12-small">
+															<span class="image">
+																<a href="https://github.com/13rianlucero/heart" class="image"><img src="https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white" alt="" data-position="center center"/></a>														
+																<a href="https://github.com/13rianlucero/heart" class="image"><img src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white" alt="" data-position="center center"/></a>
+																<a href="https://github.com/13rianlucero/heart" class="image"><img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white" alt="" data-position="center center"/></a>
+															</span>
+														</div>
 													</div>
+													<span class="image"><a href="https://github.com/13rianlucero/heart/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg" alt="" data-position="top center"/></a></span>
 												</div>
 											</header>
-											<ul>
+											<ul class="">
 												<li>I just wrote some C++ source code that prints the heart emoji 1 million times, but if I dont add a newline character in between each heart, then there isn't a single app that can open the file.</li>
 												<li>I separated each heart on its own line. I guess my HP Spectre (Windows 11) likes that better.</li>
 												<li>The original file, <code>"output.txt"</code>, actually holds 6 million hearts, but it's also 36 mb and FB messenger only allows for 26mb support in one message. (also check out, <code>"sixmillion.md"</code>)</li>
@@ -378,166 +397,6 @@
 									</div>
 								</section>
 							</section>
-							</section>
-						<!-- PERSONAL PROJECTS (END) -->
-
-						<!-- LEETCODE PROJECTS (BANNER)
-							<section id="banner" class="style2">
-								<div class="inner">
-									<span class="image">
-										<img src="images/contributions.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h1>Personal Projects</h1>
-									</header>
-									<div class="content">
-										<p>Here are some of my Personal Programming Projects</p>
-									</div>
-								</div>
-							</section>
-						
-					
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h2>Personal</h2>
-									</header>
-									<p>Here are some of my personal programming projects</p>
-								</div>
-							</section>
-
-				
-							<section id="two" class="spotlights">
-								<section>
-									<a href="https://vanilla-covid-dashboard.netlify.app/" class="image">
-										<img src="images/CovidDashboard-frontpage.png" alt="" data-position="center center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Covid Dashboard Website</h3>
-												<ul>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/Gatsby-%23663399.svg?style=for-the-badge&logo=gatsby&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="" data-position="center center"/>
-													</a>
-												</ul>
-											</header>
-											<ul>
-												<li>Created a dynamic, COVID-19 dashboard website that updates Global Statistics in Real-Time</li>
-												<li>Interactive World Map (Leaflet API): displaying each country's Covid Stats</li>
-												<li>Statistical Analysis: Case & Recovery Data tables, Critical Cases per death Data Chart</li>
-												<li>Historical Metrics: 2 Time Data Charts, Today vs. All-Time</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/13rianlucero/Covid_Dashboard" class="button">Source Code</a></li>
-												<li><a href="https://vanilla-covid-dashboard.netlify.app/" class="button primary">View Site</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a href="https://personality-quiz-projec.web.app/index.html" class="image">
-										<img src="images/QuizCetral-Homepage.png" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Quiz Central Website</h3>
-												<ul>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase" alt="" data-position="center center"/>
-													</a>
-												</ul>
-											</header>
-											<ul>
-												<li>Created a Personlity Quiz Website that processes response data to display quiz results</li>
-												<li>It includes quizzes that determine a Snack, Star wars character, Squidgame shape, or Spirit Animal</li>
-												<li>This input is also recorded in a Firestore database if the user chooses to save the data under a given name</li>
-												<li>Backend: Firestore Database Connection, through Google Firebase</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/ktranfullerton2000/349-project" class="button">Source Code</a></li>
-												<li><a href="https://personality-quiz-projec.web.app/index.html" class="button primary">View Site</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a href="https://youtu.be/DBmEFR_qsgE" class="image">
-										<img src="images/FAB-CASINO.jpeg" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>FAB Casino</h3>
-												<ul>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white" alt="" data-position="center center"/>
-													</a>
-													<a href="#" class="image">
-														<img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" alt="" data-position="center center"/>
-													</a>
-												</ul>
-											</header>
-											<ul>
-												<li>Created a casino themed iOS Mobile App, featuring Roulette, Blackjack, and Slot Machine</li>
-												<li>Developed natively in Swift 5, using Xcode 13 on Macbook Pro</li>
-												<li>Integrated Object Oriented code concepts, using classes, objects, methods, composition, and inheritance</li>
-												<li>Implemented Advanced Programming concepts including: Error Handling, Unit Testing, UI Testing, Library Management</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/13rianlucero/FAB-Casino" class="button">Source Code</a></li>
-												<li><a href="https://youtu.be/DBmEFR_qsgE" class="button primary">View Demo</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-							</section>
-							 LEETCODE PROJECTS (END) -->
-						
-
 						<!-- Three -->
 							<section id="three">
 								<div class="inner">
@@ -567,88 +426,96 @@
 									</ul>
 								</div>
 							</section>
-
-
 					</div>
 				<!-- MAIN (END) -->
 
-								<!-- Contact -->
-								<section id="contact">
-									<div class="inner">
-										<section>
-											<!-- <form method="post" action="#">
-												<div class="fields">
-													<div class="field half">
-														<label for="name">Name</label>
-														<input type="text" name="name" id="name" />
-													</div>
-													<div class="field half">
-														<label for="email">Email</label>
-														<input type="text" name="email" id="email" />
-													</div>
-													<div class="field">
-														<label for="message">Message</label>
-														<textarea name="message" id="message" rows="6"></textarea>
-													</div>
-												</div>
-												<ul class="actions">
-													<li><input type="submit" value="Send Message" class="primary" /></li>
-													<li><input type="reset" value="Clear" /></li>
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<!-- <form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form> -->
+								<section>
+									
+										<div class="box col-1-xsmall">
+											<h3>Add Contact ~ QR Code</h3>
+											<span class="image left">
+												<img src="images/BrianLucero-ContactInfo-QRCode.jpg" alt="" data-position=""/>
+											</span><br />
+											<span class="">
+												<p>Includes:</p>
+												<ul class="alt">
+													<li class=""><p class="align-center">Includes: Phone Number & Email ( <b class="">Android</b> )</p></li>
+													<li class=""><p class="">Phone Number, Email, Github, LinkedIn ( <b class="">iOS</b> )</p></li>
 												</ul>
-											</form> -->
-											<section>
-												<h3>Add Contact ~ QR Code</h3>
-												<span class="image left">
-													<img src="images/BrianLucero-ContactInfo-QRCode.jpg" alt="" data-position=""/>
-												</span>
-												<br /> <p>Includes Phone Number & Email (Android) <br /> Phone Number, Email, Github, LinkedIn (iOS)</p>
-											</section>
-										</section>
-										<section class="split">
-											<section>
-												<div class="contact-method">
-													<span class="icon solid alt fa-envelope"></span>
-													<h3>Email</h3>
-													<b>Personal:  </b><a href="mailto:blucero.cu@gmail.com">blucero.cu@gmail.com</a> <br />
-													<b>School:  </b><a href="mailto:13rianlucero@csu.fullerton.edu">13rianlucero@csu.fullerton.edu</a>
-												</div>
-											</section>
-											<section>
-												<div class="contact-method">
-													<span class="icon solid alt fa-phone"></span>
-													<h3>Phone</h3>
-													<span>(---) --- ----<br />
-													<sub>Shown in QR Code</sub>
-												</div>
-											</section>
-											<!-- <section>
-												<div class="contact-method">
-													<ul class="actions">
-														<li><a href="https://github.com/13rianlucero" class="button next">Github</a></li>
-														<li><a href="http://www.linkedin.com/in/~brian-lucero" class="button next">LinkedIn</a></li>
-													</ul>
-												</div>
-											</section> -->
-										</section>
+											</span>
+										</div>
+										<div class="box col-1-xsmall">
+											
+										</div>
+									
+								</section>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<b>Personal:  </b><a href="mailto:blucero.cu@gmail.com">blucero.cu@gmail.com</a> <br />
+										<b>School:  </b><a href="mailto:13rianlucero@csu.fullerton.edu">13rianlucero@csu.fullerton.edu</a>
 									</div>
 								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(---) --- ----<br />
+										<sub>Shown in QR Code</sub>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<ul class="actions stacked">
+											<li><a href="http://www.linkedin.com/in/~brian-lucero" class="button next small">LinkedIn</a></li>
+											<li><a href="elements.html" class="button next small">Elements</a></li>
+										</ul>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
 				
-								<!-- Footer -->
-									<footer id="footer">
-										<div class="inner">
-											<ul class="icons">
-												<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
-				
-												<li><a href="https://github.com/13rianlucero" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/~brian-lucero" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-											<ul class="Copyright © 2022 Brian Lucero. All Rights Reserved.">
-												<li>&copy; 2022 Brian Lucero. All Rights Reserved.</li>
-											</ul>
-										</div>
-									</footer>
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/13rianlucero" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/~brian-lucero" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li class="Copyright © 2022 Brian Lucero. All Rights Reserved."><p>&copy; 2022 Brian Lucero. All Rights Reserved.</p></li>
+							</ul>
+							<!-- <ul class="Copyright © 2022 Brian Lucero. All Rights Reserved. align-">
+								<p>&copy; 2022 Brian Lucero. All Rights Reserved.</p>
+							</ul> -->
+						</div>
+					</footer>
 				
 			</div>
 		<!-- WRAPPER (END) -->
