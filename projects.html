@@ -20,11 +20,11 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style2">
+					<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style7">
 						<a href="index.html" class="logo"><strong>BRIAN LUCERO</strong> <span></span></a>
 						<nav>
-							<a href="#menu">Menu</a>
+							<a href="#menu"></a>
 						</nav>
 					</header>
 
@@ -34,26 +34,24 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="projects.html">Projects</a></li>
 							<li><a href="about.html">About</a></li>
-							<li><a href="cars.html">Cars</a></li>
 						</ul>
 						<ul class="actions stacked">
-							<li><a href="https://github.com/13rianlucero/13rianlucero.github.io/blob/main/README.md#contact-information" class="button primary fit">Contact Me</a></li>
-							<li><a href="https://github.com/13rianlucero/13rianlucero.github.io/raw/main/BrianLuceroResume.pdf" class="button fit">Resume</a></li>
+							<li><a href="#footer" class="button primary fit">Contact Me</a></li>
 						</ul>
 					</nav>
 
 				<!-- Banner -->
-				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<!-- Note: The "styleN" class below should match that of the header element. -->
 					<section id="banner" class="style7">
 						<div class="inner">
 							<span class="image">
-								<img src="images/contributions.jpg" alt=""/>
+								<img src="images/projects/contributions.jpg" alt=""/>
 							</span>
 							<header class="major">
-								<h1>PROJECTS</h1>
+								<h1>Projects</h1>
 							</header>
 							<div class="content">
-								<p>University - Personal</p>
+								<p>University | Personal</p>
 							</div>
 						</div>
 					</section>
@@ -65,20 +63,19 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>University Work</h2>
+										<h2>University</h2>
 									</header>
-									<p>Here are some projects I've worked on while studying at the CSUF Computer Science Department.</p>
 								</div>
 							</section>
 
 						<!-- UNIVERSITY PROJECTS SECTION TWO--> 
 							<section id="two" class="spotlights">
 								<section class="box">
-									<div class="box">
+									<!-- <div>
 										<span class="image main">
 											<img src="images/CovidDashboard-frontpage.png" alt=""/>
 										</span>
-									</div>
+									</div> -->
 									<div class="content">
 										<div class="inner">
 											<header class="major">
@@ -98,21 +95,17 @@
 														<div class="col-4 col-12-small">
 															<span class="image "><a href="https://github.com/13rianlucero/Covid_Dashboard/tree/dev"><img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="" data-position="top center"/></a></span>
 															<span class="image "><a href="https://github.com/13rianlucero/Covid_Dashboard/tree/dev"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="" data-position="top center"/></a></span>
-
-															<!-- <span class="image "><a href="https://github.com/13rianlucero/Covid_Dashboard/blob/dev/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="" data-position="top center"/></a></span> -->
-														</div>	
+														</div>													
 													</div>
-													<span class="image"><a href="https://github.com/13rianlucero/Covid_Dashboard/blob/dev/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="" data-position="top center"/></a></span>
 												</div>
 											</header>
 											<div class="row">
 												<div class="col-6 col-12-small">
 													<ul>
-														<li>Created a dynamic, COVID-19 dashboard website that updates Global Statistics in Real-Time</li> 
-														<li>Interactive World Map (Leaflet API): displaying each country's Covid Stats</li>
-														<li>Statistical Analysis: Case & Recovery Data tables, Critical Cases per death Data Chart</li>
-														<li>Historical Metrics: 2 Time Data Charts, Today vs. All-Time</li>
-														<li>Hosted live via Netlify: <a href="https://app.netlify.com/sites/vanilla-covid-dashboard/deploys" class="image"><img src="https://api.netlify.com/api/v1/badges/1f2a7eaf-842a-4306-b29c-9a90cdd482a5/deploy-status" alt="" data-position="center center"/></a> </li> 
+														<li>Dynamic website that updates Global Covid Statistics in Real-Time</li>
+														<li><a><i>Covid Data API may no longer be available</i></a></li>
+														<li>Hosted live via Netlify</li>
+														<span class="image"><a href="https://app.netlify.com/sites/vanilla-covid-dashboard/deploys" class="image"><img src="https://api.netlify.com/api/v1/badges/1f2a7eaf-842a-4306-b29c-9a90cdd482a5/deploy-status" alt="" data-position="top center"/></span>
 													</ul>
 													<ul class="actions">
 														<li><a href="https://github.com/13rianlucero/Covid_Dashboard/tree/dev" class="button">Source Code</a></li>
@@ -129,11 +122,6 @@
 
 								<!-- 	QUIZ CENTRAL     -->
 								<section class="box">
-									<div class="box">
-										<span class="image main">
-											<img src="https://user-images.githubusercontent.com/47013770/140545994-2744ea99-ce58-48ed-8b22-ba9783bc8957.gif" alt="">
-										</span>
-									</div>
 									<div class="content"> 
 										<div class="inner">
 											<header class="major">
@@ -157,28 +145,31 @@
 											</header>
 											<div class="col-6 col-12-small">
 												<ul>
-													<li>Created a Personlity Quiz Website that processes response data to display quiz results</li>
-													<li>It includes quizzes that determine a Snack, Star wars character, Squidgame shape, or Spirit Animal</li>
-													<li>This input is also recorded in a Firestore database if the user chooses to save the data under a given name</li>
-													<li>Backend: Firestore Database Connection, through Google Firebase</li>
+													<li>Website that processes response data to display quiz results</li>
+													<li>Input recorded in Firestore database if the user creates a profile</li>
 												</ul>
 												<ul class="actions">
 													<li><a href="https://github.com/ktranfullerton2000/349-project" class="button">Source Code</a></li>
 													<li><a href="https://personality-quiz-projec.web.app/index.html" class="button primary">View Site</a></li>
 												</ul>
 											</div>
+											<div>
+												<span class="image main">
+													<img src="https://user-images.githubusercontent.com/47013770/140545994-2744ea99-ce58-48ed-8b22-ba9783bc8957.gif" alt="">
+												</span>
+											</div>
 										</div>
 									</div>
 								</section>
 
 								<section class="box">
-									<div class="box">
-										<span class="image main">
+									<!-- <div>
+										<span class="image left">
 											<a href="https://youtu.be/DBmEFR_qsgE">
-												<img src="images/FAB-CASINO.jpeg" alt="Simulator">
+												<img src="images/projects/FAB-CASINO.jpeg" alt="Simulator">
 											</a>
 										</span>
-									</div>
+									</div> -->
 									<div class="content">
 										<div class="inner">
 											<header class="major">
@@ -203,10 +194,8 @@
 													<div class="row gtr-uniform">
 														<div class="col-6 col-12-small">
 															<ul>
-																<li>Created a casino themed iOS Mobile App, featuring Roulette, Blackjack, and Slot Machine</li>
-																<li>Developed natively in Swift 5, using Xcode 13 on Macbook Pro</li>
-																<li>Integrated Object Oriented code concepts, using classes, objects, methods, composition, and inheritance</li>
-																<li>Implemented Advanced Programming concepts including: Error Handling, Unit Testing, UI Testing, Library Management</li>
+																<li>iOS Mobile App, featuring Roulette, Blackjack, and Slot Machine</li>
+																<li>Developed natively in Swift 5, using Xcode 13</li>
 															</ul>
 															<ul class="actions">
 																<li><a href="https://github.com/13rianlucero/FAB-Casino" class="button">Source Code</a></li>
@@ -217,7 +206,6 @@
 															<span class="image main">
 																<img src="https://user-images.githubusercontent.com/47013770/159123744-40bce7e4-84f7-42ad-a683-b27081489156.gif" alt="" />
 															</span>
-															<p> <br /> <br /> <br /></p>
 															<!-- <p> <br /> <br /> <br /></p> -->
 														</div>
 													</div>
@@ -229,17 +217,11 @@
 							</section>
 
 						<!-- PERSONAL PROJECTS (BANNER)-->
-							<section id="banner" class="style2">
+							<section id="banner" class="style7">
 								<div class="inner">
 									<span class="image">
-										<img src="images/LUCERO-3d.jpg" alt=""/>
+										<img src="images/brian/LUCERO-3d.jpg" alt=""/>
 									</span>
-									<header class="">
-										<h1></h1>
-									</header>
-									<div class="content">
-										<p></p>
-									</div>
 								</div>
 							</section>
 						
@@ -247,24 +229,18 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>Personal</h2>
+										<h2>Personal Projects</h2>
 									</header>
-									<p>Here are some of my personal programming projects</p>
 								</div>
 							</section>
 
 						<!-- PERSONAL PROJECTS (SECTION TWO)--> 
 							<section id="two" class="spotlights">
 								<section class="box">
-									<div class="box">
-										<span class="image main">
-												<img src="images/website.png" alt="" />
-										</span>
-									</div>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Personal Web Portfolio</h3>
+												<h3>My Web Portfolio</h3>
 												<div class="box alt">
 													<div class="row-uniform">
 														<div class="col-12-xsmall">
@@ -278,34 +254,30 @@
 															<span>
 																<a href="http://www.linkedin.com/in/~brian-lucero" class="image"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="" data-position="center center"/></a>
 																<a href="mailto:blucero.cu@gmail.com" class="image"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white/" alt="" data-position="center center"/></a>
-																<a href="https://github.com/13rianlucero/13rianlucero.github.io/blob/main/README.md#license" class="image"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg" alt="" data-position="center center"/></a>
+																<!-- <a href="https://github.com/13rianlucero/13rianlucero.github.io/blob/main/README.md#license" class="image"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg" alt="" data-position="center center"/></a> -->
 															</span>
 														</div>
 													</div>
 												</div>
 											</header>
 											<ul>
-												<li>A responsive site, sourced from HTML5 UP.</li>
-												<li>Customized Further to include more of my own Content and Style</li>
-												<li>Links my other brand accounts from various Social Networking Applications</li>
+												<li>Personal website, HTML5 UP boilerplate code</li>
 												<li>Hosted through Github Pages</li>
 											</ul>
 											<ul class="actions">
 												<li><a href="https://github.com/13rianlucero/13rianlucero.github.io" class="button">Source Code</a></li>
 											</ul>
+											<div>
+												<span class="image main">
+														<img src="images/projects/website.png" alt="" />
+												</span>
+											</div>
 										</div>
 									</div>
 								</section>
 
 								<!-- UDP PINGER -->
 								<section class="box">
-									<div class="box">
-										<div class="row-1">
-											<span class="image main">
-													<img src="https://user-images.githubusercontent.com/47013770/162745712-9766ef0e-b4fd-422b-828e-a96580d467d1.gif" alt="" />
-											</span>
-										</div>
-									</div>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
@@ -321,35 +293,35 @@
 															</a>
 														</span>
 													</div>
-													<div class="box alt col-1-xsmall">
+													<!-- <div class="box alt col-1-xsmall">
 														<span class="image">
 															<a href="https://github.com/13rianlucero/UDP-Pinger" class="image">
 																<img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" alt="" data-position="center center"/>
 															</a>
 														</span>
-													</div>
+													</div> -->
 												</div>
 											</header>
 											<ul>
-												<li>Programmed a tool designed to send a UDP packet to a target on an unallocated port and waits for a specific error answer.</li>
-												<li>Experimented with Zero Delays & No Loss, then Simulated Delay & Some Loss</li>
-												<li>Working towards building the same concepts using Socket.io, which is a NodeJS Library</li>
-												<li>Goal is enabling low-latency, bidirectional and event-based communication between a client and a server.</li>
+												<li>Python program, send/receive UDP packet traffic monitoring between host and target, on unallocated port</li>
+												<li>Experiment with Zero Delays & No Packet Loss, and Simulated Delay & Some Loss</li>												
 											</ul>
 											<ul class="actions">
 												<li><a href="https://github.com/13rianlucero/UDP-Pinger" class="button">Source Code</a></li>
 											</ul>
+										</div>
+										<div>
+											<div class="row-1">
+												<span class="image main">
+														<img src="https://user-images.githubusercontent.com/47013770/162745712-9766ef0e-b4fd-422b-828e-a96580d467d1.gif" alt="" />
+												</span>
+											</div>
 										</div>
 									</div>
 								</section>
 
 								<!-- HEART -->
 								<section class="box">
-									<div class="box">
-										<span class="image main">
-											<iframe src="https://drive.google.com/file/d/11SQnD1wSnJs6wKg5MqERt-7N1_nn0c5y/preview" width=300 height=300 allow="autoplay" ></iframe>
-										</span>
-									</div>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
@@ -383,16 +355,24 @@
 												</div>
 											</header>
 											<ul class="">
-												<li>I just wrote some C++ source code that prints the heart emoji 1 million times, but if I dont add a newline character in between each heart, then there isn't a single app that can open the file.</li>
-												<li>I separated each heart on its own line. I guess my HP Spectre (Windows 11) likes that better.</li>
-												<li>The original file, <code>"output.txt"</code>, actually holds 6 million hearts, but it's also 36 mb and FB messenger only allows for 26mb support in one message. (also check out, <code>"sixmillion.md"</code>)</li>
-												<li>The 1 million heart (non-newline) file is definitely too large to convert to Adobe pdf as it never opens in a reasonable amount of time. (txt file will not open in Google doc and crashes in Microsoft Word, 30,000+ pages for the 1mil newline heart txt file)</li>
-												<li>I learned about the limits of my hardware and now have a better idea of it's capabilities when working with large text files.</li>
+												<li>C++ source code prints heart emoji 1 million times</li> 
+													<!-- 
+														- if I dont add a newline character in between each heart, then there isn't a single app that can open the file. 
+														- I separated each heart on its own line. I guess my HP Spectre (Windows 11) likes that better.
+														- The original file, "output.txt", actually holds 6 million hearts, but it's also 36 mb and FB messenger only allows for 26mb support in one message. (also check out, "sixmillion.md")
+														- The 1 million heart (non-newline) file is definitely too large to convert to Adobe pdf as it never opens in a reasonable amount of time. (txt file will not open in Google doc and crashes in Microsoft Word, 30,000+ pages for the 1mil newline heart txt file) 
+													-->
+												<li>Learned the limits of my hardware when working with large text files.</li>
 											</ul>
 											<ul class="actions">
 												<li><a href="https://github.com/13rianlucero/heart" class="button">Source Code</a></li>
 												<!-- <li><a href="https://youtu.be/DBmEFR_qsgE" class="button primary">View Demo</a></li> -->
 											</ul>
+											<div>
+												<span class="image main">
+													<iframe src="https://drive.google.com/file/d/11SQnD1wSnJs6wKg5MqERt-7N1_nn0c5y/preview" width=300 height=300 allow="autoplay" ></iframe>
+												</span>
+											</div>
 										</div>
 									</div>
 								</section>
@@ -400,15 +380,12 @@
 						<!-- Three -->
 							<section id="three">
 								<div class="inner">
-									<header class="major">
-										<h2>More Information</h2>
-									</header>
 									<ul class="actions">
-										<!-- <li><a href="https://github.com/13rianlucero" class="button next">Github</a></li> -->
 										<li><a href="about.html" class="button next">ABOUT ME</a></li>
-										<!-- <li><a href="http://www.linkedin.com/in/~brian-lucero" class="button next small">LinkedIn</a></li>
-										<li><a href="elements.html" class="button next small">Elements</a></li> -->
 									</ul>
+									<!-- <ul class="actions">										
+										<li><a href="elements.html" class="button next small">Elements</a></li>
+									</ul> -->
 									<!-- <div>
 										<p>
 											<span>
@@ -425,89 +402,33 @@
 								</div>
 							</section>
 					</div>
-				<!-- MAIN (END) -->
-
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section class="">
-								<!-- <div class=""> -->
-									<span class="image left">
-										<img src="images/contact-info/BrianLucero-ContactInfo-QRCode.jpg" alt=""/>
-									</span>
-								<!-- </div> -->
-								<div class="box alt">
-									<header class="major">
-										<h3>Add Contact ~ QR Code</h3>
-									</header>		
-									<ul>
-										<li>Phone Number & Email ( <b>Android</b> )</li>
-										<li>Phone Number, Email, Github, LinkedIn ( <b>iOS</b> )</li>
-									</ul>
-								</div>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<b>Personal:  </b><a href="mailto:blucero.cu@gmail.com">blucero.cu@gmail.com</a> <br />
-										<b>School:  </b><a href="mailto:13rianlucero@csu.fullerton.edu">13rianlucero@csu.fullerton.edu</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(---) --- ----<br />
-										<sub>Shown in QR Code</sub>
-									</div>
-								</section>
-								<!-- <section>
-									<div class="contact-method">
-										<ul class="actions stacked">
-											<li><a href="http://www.linkedin.com/in/~brian-lucero" class="button next">LinkedIn</a></li>
-											<li><a href="elements.html" class="button next">Elements</a></li>
-										</ul>
-									</div>
-								</section> -->
-							</section>
-						</div>
-					</section>
 				
 				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
-
-								<li><a href="https://github.com/13rianlucero" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/~brian-lucero" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="Copyright © 2022 Brian Lucero. All Rights Reserved.">
-								<li>&copy; 2022 Brian Lucero. All Rights Reserved.</li>
-							</ul>
-						</div>
-					</footer>
-
-				<!-- [[[ OLD Footer ]]] -->
-					<!-- <footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://github.com/13rianlucero" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/~brian-lucero" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li class="Copyright © 2022 Brian Lucero. All Rights Reserved."><p>&copy; 2022 Brian Lucero. All Rights Reserved.</p></li>
-							</ul> -->
-							<!-- <ul class="Copyright © 2022 Brian Lucero. All Rights Reserved. align-">
-								<p>&copy; 2022 Brian Lucero. All Rights Reserved.</p>
-							</ul> -->
-						<!-- </div>
-					</footer> -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><span class="image left">
+									<div class="box alt">
+										<header class="major">
+											<h4>Add Contact</h4>
+										</header>
+									</div>
+									<img src="images/contact-info/BrianLucero-ContactInfo-QRCode.jpg" alt=""/>
+								</span>
+							</li>							
+							<li><a href="https://github.com/13rianlucero" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/~brian-lucero" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:13rianlucero@csu.fullerton.edu" class="icon brands alt fa-microsoft"><span class="label">Outlook</span></a></li>
+							<li><a href="mailto:blucero.cu@gmail.com" class="icon brands alt fa-google"><span class="label">Gmail</span></a></li>
+							<!-- <li class="Copyright © 2022 Brian Lucero. All Rights Reserved."><span>&copy; 2022 Brian Lucero. All Rights Reserved.</span></li> -->
+						</ul>
+						<a class="Copyright © 2022 Brian Lucero. All Rights Reserved.">
+							<span>&copy; 2022 Brian Lucero. All Rights Reserved.</span>
+						</a>
+					</div>
+				</footer>
 				
 			</div>
-		<!-- WRAPPER (END) -->
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
